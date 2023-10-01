@@ -1,1 +1,2 @@
-Digital Clock using JavaScript
+Digital Clock using JavaScript.
+=== Demo: https://lucasshira.github.io/relogio-digital-js/
