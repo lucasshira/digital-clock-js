@@ -45,7 +45,7 @@ body {
     width: 25.5ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2.5s steps(26),
+    animation: typing 2.5s steps(26, end),
     blinking 0.5s infinite step-end alternate;
 }
 
