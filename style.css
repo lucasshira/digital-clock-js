@@ -42,7 +42,7 @@ body {
     font-family: monospace;
     border-right: 4px solid;
     line-height: 1px;
-    width: 25.5ch;
+    width: 26ch;
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2.5s steps(26, end),
