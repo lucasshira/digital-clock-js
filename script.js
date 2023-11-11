@@ -1,6 +1,7 @@
 const getClock = () => {
     const clock = document.querySelector('.clock');
     const dateElement = document.querySelector('.date');
+    const dayElement = document.querySelector('.day');
     const currentDate = new Date();
     const dayOfWeek = currentDate.toLocaleDateString('pt-BR', {weekday: 'long' });
     const hours = currentDate.getHours();
@@ -19,7 +20,8 @@ const getClock = () => {
     const fullDate = `${dayOfWeek}, ${formattedDate}`;
     
     clock.textContent = formattedTime;
-    dateElement.textContent = fullDate;
+    dateElement.textContent = formattedDate;
+    dayElement.textContent = dayOfWeek;
 };
   
 setInterval(getClock, 1000);
