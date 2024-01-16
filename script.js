@@ -16,7 +16,7 @@ const getClock = () => {
     const formattedSeconds = seconds < 10 ? `0${seconds}` : seconds;
     
     const formattedTime = `${formattedHours}:${formattedMinutes}:${formattedSeconds}`;
-    const formattedDate = `${day < 10 ? '0' : ''}${day}/${month}/${year}`;
+    const formattedDate = `${day < 10 ? '0' : ''}${day}/${month < 10 ? '0' : ''}${month}/${year}`;
     const fullDate = `${dayOfWeek}, ${formattedDate}`;
     
     clock.textContent = formattedTime;
