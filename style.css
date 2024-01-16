@@ -56,7 +56,7 @@ body {
     width: 11.2ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 5s steps(15) infinite, blinking 1s infinite step-end alternate;
+    animation: typing 5s steps(14) infinite, blinking 1s infinite step-end alternate;
 }
 
 @keyframes typing {
